@@ -1,0 +1,22 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'rentalcard.scss';
+@import 'rentaldetail.scss';
+
+.page-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.apartment{
+    color:#a72da3;
+}
+
+.condo {
+    color:#bf1818;
+}
+
+.house {
+    color:#d68000;
+}
