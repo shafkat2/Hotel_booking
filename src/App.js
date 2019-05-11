@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import 'App.css';
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import {Login} from 'Component/Login/Login'
+import {Register} from 'Component/Register/Register'
 
 
 import {Provider} from "react-redux";
@@ -26,6 +28,8 @@ class App extends Component {
               <Route exact path= "/" render = {() =>  <Redirect to= "/rental"/>}/>
               <Route exact path= "/rental" component = {RentalListing}/>
               <Route exact path= "/rental/:id" component = {RentalDetail}/>
+              <Route exact path= "/login" component = {Login}/>
+              <Route exact path= "/register" component = {Register}/>
             </div>
           </div>
         </Router>
